@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+}
+
+.header {
+    background-image: url("images/desert.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 181px;
+}
+
+.container {
+    padding: 0% 16.7%;
+}
+
+.header_line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{
+    margin-top: 34px;
+}
+.header_logo_item {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    padding-top: 3px;
+}
+.nav{
+    margin-top: 34px;
+}
+
+.nav_list {
+    list-style-type: none;
+}
+
+.nav_link {
+    color: white;
+    text-decoration: none;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.nav_item {
+    display: inline;
+    margin: 0px 20px;
+}
+
+.header_main {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.header_title {
+    color: white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.header_subtitle {
+    color: #FFFFFFA1;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    margin-top: 20px;
+    padding: 0px 3px;
+}
+
+.button {
+    background-color: #DD783F;
+    text-decoration: none;
+    color: white;
+    padding: 12px 31px;
+    font-size: 13px;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn {
+    margin-top: 44px;
+    padding-top: 14px;
+}
+
+.down_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 22px;  
+}
+
+.down_nav_list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin: 0% 15%;
+}
+
+.down_nav_link {
+    color: #768088;
+    text-decoration: none;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.down_nav_item {
+    display: inline;
+    margin: 0px 50px;
+}
+
+.main{
+    padding-top: 40px;
+    margin-top: 27px;
+    background-color: #F7F7F7;
+}
+
+.main_up_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_up_title{
+    border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 17px;
+    width: 188px;
+    text-align: center;
+    color: #2E2E2E;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.main_up_nav{
+    height: 294px;
+    margin-top: 15px;
+}
+
+
+.main-up__posts{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0, 24.5%;
+    padding-inline-start: 0px;
+    gap: 24px;
+    flex-wrap: wrap;    
+}
+
+.container_posts{
+    position: relative;
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 280px;
+}
+
+.image_posts{
+    background-size: cover;
+    width: 460px;
+    height: 280px;
+}
+
+.post_date {
+    position: absolute;
+    top: 86%;
+    right: 4%;
+    color: #FFFFFFB2;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.post_people{
+    text-decoration: none;
+    position: absolute;
+    top: 84%;
+    left: 4%;
+    display: flex;
+    gap: 10px;
+}
+
+.post_people_name{
+    margin-top: 6px;
+    color: #FFFFFFB2;
+    text-decoration: none;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.post_subtitle{
+    position: absolute;
+    top: 70%;
+    left: 4%;  
+    color: #FFFFFFB2;
+    text-decoration: none;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;    
+}
+
+.post_title{
+    position: absolute;
+    top: 55%;
+    left: 4%;
+    color: white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    text-decoration: none;    
+}
+.button_two{
+    background-color: #DD783F;
+    text-decoration: none;
+    color: white;
+    padding: 6px 10px;
+    font-size: 13px;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.btn_two{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.main_down{
+    padding-bottom: 111px;
+}
+.main_down_container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_down_title{
+    border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 17px;
+    width: 188px;
+    text-align: center;
+    color: #2E2E2E;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.main-down__posts{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0, 24.5%;
+    padding-inline-start: 0px;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 30px; 
+    margin-top: 15px; 
+}
+
+.container_posts_down{
+    width: 296px;
+    height: 291px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.post_title_down{
+    text-decoration: none;
+    color: #101315;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    position: absolute;
+    top: 57%;
+    left: 5%;
+}
+
+.post_subtitle_down{
+    text-decoration: none;
+    color: #7A7A7A;
+    font-size: 13px;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 296px;
+    position: absolute;
+    top: 67%;
+    left: 5%;  
+}
+.line{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #EFEFEF;
+    top: 83%;
+}
+.post_people_down{
+    display: flex;
+    position: absolute;
+    top: 87%;
+    left: 5%;
+    gap: 10px;
+}
+
+.post_name_down{
+    text-decoration: none;
+    color: #999999;
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.post_date_down{
+    position: absolute;
+    top: 89%;
+    right: 10%;
+    font-size: 13px;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #999999;
+}
+
+
+.footer{
+    background-image: url(images/image2.png);
+    background-size: cover;
+}
+.footer_container {
+    padding: 0% 16.7%;
+    background-color: #232F3899;
+    height: 89px;
+}
+
+.footer_line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_logo_item{
+    color: #2E2E2E;
+    text-decoration: none;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    padding-top: 3px;
+    margin-top: 30px;
+}
+
+.footer_nav{
+    display: flex;
+    margin-top: 8px;
+    margin-top: 35px;
+}
+
+.footer_nav_list{
+    list-style-type: none;
+}
+
+.footer_nav_link{
+    color: white;
+    text-decoration: none;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.footer_nav_item{
+    display: inline;
+    margin: 0px 20px;
+}
